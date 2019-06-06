@@ -8,7 +8,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: '前端知识点总结',
-      description: '心中有码'
+      description: '心中有码,剑走天涯'
     }
   },
   head: [
@@ -61,14 +61,14 @@ module.exports = {
               { text: '移动端兼容问题', link: '/zh/standard/Compatibility.md'}
             ],
           },
-          // {
-          //   text: '知名公司面试题',
-          //   items: [
-          //     { text: '面试必看', link: '/zh/interview/index.md'},
-          //     { text: '阿里巴巴', link: '/zh/interview/ali.md'},
-          //     { text: '龙湖地产', link: '/zh/interview/longhu.md'}
-          //   ]
-          // },
+          {
+            text: '知名公司面试题',
+            items: [
+              { text: '面试必看', link: '/zh/interview/index.md'},
+              { text: '阿里巴巴', link: '/zh/interview/ali.md'},
+              // { text: '龙湖地产', link: '/zh/interview/longhu.md'}
+            ]
+          },
           {
             text: '知识点笔记',
             items: [
@@ -77,8 +77,8 @@ module.exports = {
               { text: '在线思维导图', link: '/zh/interface/Mind.md'},
               { text: 'Vue', link: '/zh/vue/' },
               { text: 'React', link: '/zh/react/'},
-              { text: '小程序', link: '/zh/miniapp/' },
-              // { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},             
+              // { text: '小程序', link: '/zh/miniapp/' },
+              { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},             
               { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
               { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
             ]
@@ -87,7 +87,7 @@ module.exports = {
         ],
         sidebar: {
           '/guide/': genSidebarConfig('指南'),
-          // '/zh/ali/': [{title:'阿里面试题'}],
+          '/zh/ali/': [{title:'阿里面试题'}],
           '/zh/vue/': [{title: 'Vue知识点', children: [
             '', 'Es6', 'Es6方法扩展', 'Webpack', 'Babel', 'Promise', 'Vue 各种方法之间的区别', 'Vue组件', 'Vue路由', 'Vue动画', 'vue钩子函数', 'vuex'
           ]}],
