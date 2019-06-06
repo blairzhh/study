@@ -25,14 +25,14 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: 'wanghongting/study',
+    repo: 'blairzhh/study',
     docsDir: 'src',
     editLinks: true,
    
     locales: {
       '/': {
         label: '简体中文',
-        repo: 'wanghongting/study',      
+        repo: 'blairzhh/study',      
         selectText: '选择语言',
         editLinkText: '帮助我们改进内容',
         lastUpdated: '上次更新',
